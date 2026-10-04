@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سامانه</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>سامانه گزارش‌دهی مدیریتی</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label>ایمیل</label>
+                <input type="email" id="email" required placeholder="ایمیل خود را وارد کنید">
+            </div>
+            <div class="form-group">
+                <label>رمز عبور</label>
+                <input type="password" id="password" required placeholder="رمز عبور">
+            </div>
+            <button type="submit">ورود</button>
+            <p id="errorMessage" class="error"></p>
+        </form>
+    </div>
+    <script src="js/auth.js"></script>
+</body>
+</html>
