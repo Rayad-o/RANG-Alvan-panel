@@ -1,0 +1,104 @@
+# فقط فرانت‌اند روی Netlify منتشر می‌شود (بدون build).
+# درخواست‌های API توسط Netlify به بک‌اند Rang پراکسی می‌شوند؛ بنابراین مرورگر فقط با
+# https://<site>.netlify.app صحبت می‌کند (بدون خطای mixed-content و بدون نیاز به CORS).
+#
+# اگر آدرس بک‌اند عوض شد (یا دامنهٔ HTTPS گرفتید)، همهٔ `to` های زیر را تغییر دهید.
+
+[build]
+  publish = "frontend"
+
+[[redirects]]
+  from = "/auth/*"
+  to = "http://185.239.0.76:8080/auth/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/dashboard/*"
+  to = "http://185.239.0.76:8080/dashboard/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sales/*"
+  to = "http://185.239.0.76:8080/sales/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/finance/*"
+  to = "http://185.239.0.76:8080/finance/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/inventory/*"
+  to = "http://185.239.0.76:8080/inventory/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/upload/*"
+  to = "http://185.239.0.76:8080/upload/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/payments/*"
+  to = "http://185.239.0.76:8080/payments/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/purchase-invoices/*"
+  to = "http://185.239.0.76:8080/purchase-invoices/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/suppliers/*"
+  to = "http://185.239.0.76:8080/suppliers/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/tasks/*"
+  to = "http://185.239.0.76:8080/tasks/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/users/*"
+  to = "http://185.239.0.76:8080/users/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/settings/*"
+  to = "http://185.239.0.76:8080/settings/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/buyer/*"
+  to = "http://185.239.0.76:8080/buyer/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/accounting/*"
+  to = "http://185.239.0.76:8080/accounting/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/requests/*"
+  to = "http://185.239.0.76:8080/requests/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/departments/*"
+  to = "http://185.239.0.76:8080/departments/:splat"
+  status = 200
+  force = true

@@ -6,22 +6,30 @@
     <title>ورود به سامانه</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="login-page">
+    <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
     <div class="login-container">
+        <div class="brand-mark">R</div>
         <h1>سامانه گزارش‌دهی مدیریتی</h1>
+        <p class="sub">برای ادامه وارد حساب خود شوید</p>
         <form id="loginForm">
             <div class="form-group">
-                <label>ایمیل</label>
-                <input type="email" id="email" required placeholder="ایمیل خود را وارد کنید">
+                <label for="email">ایمیل</label>
+                <input type="email" id="email" required autocomplete="username" placeholder="ایمیل خود را وارد کنید" dir="ltr">
             </div>
             <div class="form-group">
-                <label>رمز عبور</label>
-                <input type="password" id="password" required placeholder="رمز عبور">
+                <label for="password">رمز عبور</label>
+                <input type="password" id="password" required autocomplete="current-password" placeholder="رمز عبور" dir="ltr">
             </div>
-            <button type="submit">ورود</button>
-            <p id="errorMessage" class="error"></p>
+            <button type="submit" class="btn block" id="loginBtn">ورود</button>
+            <p id="errorMessage" class="error" role="alert"></p>
         </form>
     </div>
-    <script src="js/auth.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="js/config.js"></script>
+    <script src="js/scene.js" defer></script>
+    <script src="js/auth.js" defer></script>
 </body>
 </html>

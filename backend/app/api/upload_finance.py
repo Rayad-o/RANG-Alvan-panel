@@ -1,153 +1,99 @@
-from fastapi import APIRouter, UploadFile, File, Depends, HTTPException
+from typing import Optional
+
+from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 from sqlalchemy.ext.asyncio import AsyncSession
-import pandas as pd
-from io import BytesIO
 
 from app.core.database import get_db
+from app.core.deps import get_current_user
+from app.core.excel import (
+    clean_amount,
+    map_columns,
+    read_tabular_file,
+    require_columns,
+)
 from app.models.finance import FinanceTransaction
-from app.api.upload import normalize_persian, read_ms_xml_spreadsheet, clean_amount
+from app.models.user import User
 
 router = APIRouter(prefix="/upload", tags=["Upload"])
 
 
-async def _read_uploaded_table(file: UploadFile) -> pd.DataFrame:
-    if not file.filename:
-        raise HTTPException(status_code=400, detail="فایل ارسال نشده است")
+def _text(value) -> Optional[str]:
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text or text.lower() == "nan":
+        return None
+    return text
 
-    filename = file.filename.lower()
-    if not filename.endswith((".xlsx", ".xls", ".csv")):
-        raise HTTPException(status_code=400, detail="فقط فایل Excel یا CSV مجاز است")
 
-    content = await file.read()
+async def _import_ledger(
+    file: UploadFile,
+    db: AsyncSession,
+    amount_column: str,
+    transaction_type: str,
+    message: str,
+) -> dict:
+    """منطق مشترک آپلود دفتر حساب‌های دریافتنی/پرداختنی."""
+    df = map_columns(await read_tabular_file(file), {"کد": "code", "عنوان": "party_name", amount_column: "amount"})
+    require_columns(df, ["party_name", "amount"])
 
-    try:
-        if filename.endswith(".csv"):
-            df = pd.read_csv(BytesIO(content))
-        else:
-            try:
-                df = pd.read_excel(BytesIO(content), engine="calamine")
-            except Exception:
-                try:
-                    df = read_ms_xml_spreadsheet(content)
-                except Exception:
-                    tables = pd.read_html(BytesIO(content))
-                    if not tables:
-                        raise ValueError("جدولی در فایل پیدا نشد")
-                    df = tables[0]
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=f"خواندن فایل ناموفق بود: {str(e)}")
+    created = 0
+    skipped = 0
+    errors: list[str] = []
 
-    df.columns = [normalize_persian(str(c).strip()) for c in df.columns]
-    return df
+    for idx, row in df.iterrows():
+        try:
+            party_name = _text(row.get("party_name"))
+            if party_name is None:
+                skipped += 1
+                continue
+
+            code = _text(row.get("code"))
+
+            db.add(
+                FinanceTransaction(
+                    type=transaction_type,
+                    amount=clean_amount(row.get("amount")),
+                    # دفتر حساب‌ها تاریخ ندارد؛ None یعنی «تاریخ نامشخص»
+                    transaction_date=None,
+                    party_name=party_name,
+                    description=f"کد: {code}" if code else None,
+                )
+            )
+            created += 1
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"ردیف {idx + 2}: {exc}")
+
+    await db.commit()
+
+    return {"message": message, "created": created, "skipped": skipped, "errors": errors[:30]}
 
 
 @router.post("/receivables-excel")
 async def upload_receivables_excel(
     file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
-    df = await _read_uploaded_table(file)
-
-    column_map = {
-        "کد": "code",
-        "عنوان": "party_name",
-        "مانده": "amount",
-    }
-    rename_dict = {col: column_map[col] for col in df.columns if col in column_map}
-    df = df.rename(columns=rename_dict)
-
-    required_cols = ["party_name", "amount"]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise HTTPException(
-            status_code=400,
-            detail=f"ستون‌های ضروری یافت نشد: {missing}. ستون‌های فایل: {list(df.columns)}"
-        )
-
-    created = 0
-    errors = []
-
-    for idx, row in df.iterrows():
-        try:
-            party_name = row.get("party_name")
-            if pd.isna(party_name) or str(party_name).strip() == "":
-                continue
-
-            code = row.get("code")
-            description = f"کد: {code}" if pd.notna(code) else None
-
-            item = FinanceTransaction(
-                type="receivable",
-                amount=clean_amount(row.get("amount")),
-                transaction_date=None,
-                party_name=str(party_name).strip(),
-                description=description,
-            )
-            db.add(item)
-            created += 1
-        except Exception as e:
-            errors.append(f"ردیف {idx + 2}: {str(e)}")
-
-    await db.commit()
-
-    return {
-        "message": "آپلود حساب‌های دریافتنی انجام شد",
-        "created": created,
-        "errors": errors[:30],
-    }
+    return await _import_ledger(
+        file,
+        db,
+        amount_column="مانده",
+        transaction_type="receivable",
+        message="آپلود حساب‌های دریافتنی انجام شد",
+    )
 
 
 @router.post("/payables-excel")
 async def upload_payables_excel(
     file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
-    df = await _read_uploaded_table(file)
-
-    column_map = {
-        "کد": "code",
-        "عنوان": "party_name",
-        "مانده بستانکار": "amount",
-    }
-    rename_dict = {col: column_map[col] for col in df.columns if col in column_map}
-    df = df.rename(columns=rename_dict)
-
-    required_cols = ["party_name", "amount"]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise HTTPException(
-            status_code=400,
-            detail=f"ستون‌های ضروری یافت نشد: {missing}. ستون‌های فایل: {list(df.columns)}"
-        )
-
-    created = 0
-    errors = []
-
-    for idx, row in df.iterrows():
-        try:
-            party_name = row.get("party_name")
-            if pd.isna(party_name) or str(party_name).strip() == "":
-                continue
-
-            code = row.get("code")
-            description = f"کد: {code}" if pd.notna(code) else None
-
-            item = FinanceTransaction(
-                type="payable",
-                amount=clean_amount(row.get("amount")),
-                transaction_date=None,
-                party_name=str(party_name).strip(),
-                description=description,
-            )
-            db.add(item)
-            created += 1
-        except Exception as e:
-            errors.append(f"ردیف {idx + 2}: {str(e)}")
-
-    await db.commit()
-
-    return {
-        "message": "آپلود مانده بستانکاری انجام شد",
-        "created": created,
-        "errors": errors[:30],
-    }
+    return await _import_ledger(
+        file,
+        db,
+        amount_column="مانده بستانکار",
+        transaction_type="payable",
+        message="آپلود مانده بستانکاری انجام شد",
+    )

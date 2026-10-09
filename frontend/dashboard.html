@@ -5,46 +5,474 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>داشبورد مدیریتی</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/control.css">
+    <link rel="stylesheet" href="css/polish.css">
 </head>
 <body>
     <div class="layout">
         <aside class="sidebar">
-            <h2>سامانه مدیریتی</h2>
-            <ul>
-                <li><a href="dashboard.html">داشبورد</a></li>
-                <li><a href="#">فروش</a></li>
-                <li><a href="#">مالی</a></li>
-                <li><a href="#" id="logoutBtn">خروج</a></li>
-            </ul>
+            <div class="brand">
+                <div class="brand-mark">R</div>
+                <div><strong>سامانه مدیریتی</strong><small>Rang × Rayad</small></div>
+            </div>
+
+            <nav>
+                <a class="nav-link" href="#/overview" data-view="overview">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+                    داشبورد
+                </a>
+
+                <div class="nav-title">کسب‌وکار</div>
+                <a class="nav-link" href="#/sales" data-view="sales">
+                    <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+                    فروش
+                </a>
+                <a class="nav-link" href="#/finance" data-view="finance">
+                    <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2.5"/><path d="M2 11h20"/></svg>
+                    مطالبات و بستانکاری
+                </a>
+                <a class="nav-link" href="#/inventory" data-view="inventory">
+                    <svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+                    انبار
+                </a>
+                <a class="nav-link" href="#/upload" data-view="upload">
+                    <svg viewBox="0 0 24 24"><path d="M12 16V4"/><path d="M7 9l5-5 5 5"/><path d="M4 16v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>
+                    آپلود اکسل
+                </a>
+
+                <div class="nav-title">کنترل و ریسک</div>
+                <a class="nav-link" href="#/payments" data-view="payments">
+                    <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+                    کنترل پرداخت
+                    <span class="count" id="navPending" hidden></span>
+                </a>
+                <a class="nav-link" href="#/purchase" data-view="purchase">
+                    <svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6"/><path d="M9 13h7M9 17h7"/></svg>
+                    فاکتور خرید
+                </a>
+                <a class="nav-link" href="#/suppliers" data-view="suppliers">
+                    <svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>
+                    تأمین‌کنندگان
+                </a>
+                <a class="nav-link" href="#/tasks" data-view="tasks">
+                    <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="17" rx="2"/><path d="M9 4V2h6v2"/><path d="M8.5 13l2.5 2.5 4.5-5"/></svg>
+                    کنترل عملکرد
+                    <span class="count warn" id="navOverdue" hidden></span>
+                </a>
+                <a class="nav-link" href="#/reports" data-view="reports">
+                    <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+                    گزارش‌ها
+                </a>
+
+                <div class="nav-title" data-min="manager">خریداران و کارگران</div>
+                <a class="nav-link" href="portal.html#/requests" data-min="manager">
+                    <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.2L20 8H6.2"/><circle cx="9" cy="19.5" r="1.4"/><circle cx="17" cy="19.5" r="1.4"/></svg>
+                    درخواست‌ها و بدهی‌ها
+                </a>
+
+                <div class="nav-title" data-min="admin">مدیریت</div>
+                <a class="nav-link" href="#/users" data-view="users" data-min="admin">
+                    <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><path d="M17 5.5a3.5 3.5 0 010 5M19 14.5c1.6.8 2.5 2.5 2.5 5.5"/></svg>
+                    کاربران
+                </a>
+                <a class="nav-link" href="#/settings" data-view="settings" data-min="admin">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg>
+                    تنظیمات کنترل
+                </a>
+            </nav>
+
+            <div class="me">
+                <span class="avatar" id="userAvatar"></span>
+                <span id="userName">—</span>
+                <small id="userRole"></small>
+                <button id="logoutBtn" type="button">خروج</button>
+            </div>
         </aside>
 
         <main class="content">
-            <header>
-                <h1>داشبورد</h1>
-                <p id="welcomeText">خوش آمدید</p>
-            </header>
+            <!-- ===== داشبورد ===== -->
+            <section class="view" id="view-overview">
+                <div class="page-head head-row">
+                    <div>
+                        <h1>داشبورد</h1>
+                        <p id="welcomeText">خوش آمدید</p>
+                    </div>
+                    <div class="seg" id="overviewTab">
+                        <button data-value="business" class="on">فروش و مالی</button>
+                        <button data-value="control">کنترل و ریسک</button>
+                    </div>
+                </div>
 
-            <div class="cards">
-                <div class="card">
-                    <h3>فروش امروز</h3>
-                    <p>—</p>
+                <!-- نمای فروش و مالی -->
+                <div id="ov-business">
+                    <div class="cards" id="kpis">
+                        <div class="card" data-tilt style="--tint:#5b5bf0">
+                            <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+                            <h3>فروش امروز</h3><div class="value skeleton" data-k="today_sales">۰</div>
+                            <div class="hint" id="hintToday"></div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#14b8a6">
+                            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 6H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+                            <h3>کل فروش</h3><div class="value skeleton" data-k="sales_total">۰</div>
+                            <div class="hint" id="hintSales"></div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#f59e0b">
+                            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+                            <h3>مطالبات</h3><div class="value skeleton" data-k="receivables">۰</div>
+                            <div class="hint">حساب‌های دریافتنی</div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#ec4899">
+                            <div class="icon"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2.5"/><path d="M2 11h20"/></svg></div>
+                            <h3>مانده بستانکاری</h3><div class="value skeleton" data-k="payables">۰</div>
+                            <div class="hint">بدهی به طرف‌حساب‌ها</div>
+                        </div>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="panel">
+                            <h2>روند فروش ماهانه</h2>
+                            <p class="sub">آخرین ماه‌های دارای فروش — برای دیدن مقدار، روی میله‌ها بروید</p>
+                            <div class="chart3d" id="chart"></div>
+                        </div>
+                        <div class="panel">
+                            <h2>برترین مشتریان</h2>
+                            <p class="sub">بر اساس مجموع خرید</p>
+                            <ul class="rank" id="topCustomers"></ul>
+                        </div>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="panel">
+                            <h2>آخرین فاکتورها</h2>
+                            <p class="sub">هشت فاکتور اخیر</p>
+                            <div class="table-wrap">
+                                <table>
+                                    <thead><tr><th>تاریخ</th><th>مشتری</th><th>مبلغ</th><th>مانده</th></tr></thead>
+                                    <tbody id="recentBody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h2>وضعیت</h2>
+                            <p class="sub">موارد نیازمند توجه</p>
+                            <div class="stat-list">
+                                <div class="s"><span>فاکتور تسویه‌نشده</span><b data-k="unpaid_invoices">—</b></div>
+                                <div class="s"><span>مبلغ تسویه‌نشده</span><b data-k="unpaid_amount">—</b></div>
+                                <div class="s"><span>نیازمند پیگیری</span><b data-k="followups">—</b></div>
+                                <div class="s"><span>اقلام انبار</span><b data-k="inventory_items">—</b></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>مطالبات</h3>
-                    <p>—</p>
+
+                <!-- نمای کنترل و ریسک -->
+                <div id="ov-control" hidden>
+                    <div class="cards">
+                        <div class="card" data-tilt style="--tint:#5b5bf0">
+                            <div class="icon"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></div>
+                            <h3>درخواست‌های پرداخت امروز</h3><div class="value skeleton" id="c-today">۰</div>
+                            <div class="hint" id="c-today-hint"></div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#ef4444">
+                            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></div>
+                            <h3>پرداخت متوقف‌شده</h3><div class="value skeleton" id="c-stopped">۰</div>
+                            <div class="hint" id="c-stopped-hint"></div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#f59e0b">
+                            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+                            <h3>کارهای عقب‌افتاده</h3><div class="value skeleton" id="c-overdue">۰</div>
+                            <div class="hint" id="c-overdue-hint"></div>
+                        </div>
+                        <div class="card" data-tilt style="--tint:#14b8a6">
+                            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/></svg></div>
+                            <h3>امتیاز سلامت کنترل</h3><div class="value skeleton" id="c-health">۰</div>
+                            <div class="hint" id="c-health-hint"></div>
+                        </div>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="panel">
+                            <div class="panel-head"><h2>هشدارهای مهم</h2><span class="sub" id="alertsMeta"></span></div>
+                            <div id="alerts"></div>
+                        </div>
+                        <div class="panel">
+                            <h2>ریسک امروز</h2>
+                            <p class="sub">بالاترین امتیازهای در انتظار تأیید</p>
+                            <div id="topRisks"></div>
+                            <a class="btn block link-btn" href="#/payments">مشاهده کنترل پرداخت</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-2">
+                        <div class="panel">
+                            <h2>جریان درخواست‌های پرداخت</h2>
+                            <p class="sub">۷ روز اخیر (بدون پرداخت‌های متوقف)</p>
+                            <div class="chart3d" id="chart7d"></div>
+                        </div>
+                        <div class="panel">
+                            <h2>عملکرد سازمان</h2>
+                            <p class="sub">وظایف انجام‌شده نسبت به عقب‌افتاده</p>
+                            <div class="ring-wrap"><div class="ring" id="ring"><b id="ringText">—</b></div></div>
+                            <div class="stat-list">
+                                <div class="s"><span>تکمیل‌شده</span><b id="p-done">—</b></div>
+                                <div class="s"><span>عقب‌افتاده</span><b id="p-overdue">—</b></div>
+                                <div class="s"><span>پرداخت‌های پرریسک</span><b id="f-high">—</b></div>
+                                <div class="s"><span>مغایرت فاکتور</span><b id="f-inv">—</b></div>
+                                <div class="s"><span>تغییرات حساس</span><b id="f-sens">—</b></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <h2>آخرین فعالیت‌ها</h2>
+                        <p class="sub">تأییدها، تغییرات و ثبت‌ها به‌صورت خودکار ذخیره می‌شوند</p>
+                        <ul class="activity" id="activity"></ul>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>سفارش معوق</h3>
-                    <p>—</p>
+            </section>
+
+            <!-- ===== فروش ===== -->
+            <section class="view" id="view-sales">
+                <div class="page-head"><h1>فاکتورهای فروش</h1><p>جستجو بر اساس نام مشتری یا شماره فاکتور</p></div>
+                <div class="toolbar"><input class="search" id="salesSearch" type="search" placeholder="جستجو..."></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>تاریخ</th><th>شماره</th><th>مشتری</th><th>مبلغ</th><th>مانده</th><th>وضعیت</th></tr></thead>
+                        <tbody id="salesBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="salesMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== مطالبات و بستانکاری ===== -->
+            <section class="view" id="view-finance">
+                <div class="page-head"><h1>مطالبات و بستانکاری</h1><p>حساب‌های دریافتنی و مانده‌های بستانکاری (از آپلود اکسل)</p></div>
+                <div class="toolbar">
+                    <input class="search" id="financeSearch" type="search" placeholder="جستجو در نام طرف‌حساب...">
+                    <div class="seg" id="financeType">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="receivable">مطالبات</button>
+                        <button data-value="payable">بستانکاری</button>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>هشدارها</h3>
-                    <p>—</p>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>طرف‌حساب</th><th>نوع</th><th>مبلغ</th><th>توضیحات</th></tr></thead>
+                        <tbody id="financeBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="financeMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== انبار ===== -->
+            <section class="view" id="view-inventory">
+                <div class="page-head"><h1>موجودی انبار</h1><p>جستجو بر اساس کد یا عنوان کالا</p></div>
+                <div class="toolbar"><input class="search" id="inventorySearch" type="search" placeholder="جستجو..."></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>کد کالا</th><th>عنوان</th><th>موجودی</th></tr></thead>
+                        <tbody id="inventoryBody"></tbody>
+                    </table>
+                </div></div>
+            </section>
+
+            <!-- ===== آپلود ===== -->
+            <section class="view" id="view-upload">
+                <div class="page-head"><h1>آپلود اکسل</h1><p>فایل را بکشید و رها کنید یا کلیک کنید (xlsx، xls، csv)</p></div>
+                <div class="upload-grid" id="uploadGrid"></div>
+            </section>
+
+            <!-- ===== کنترل پرداخت ===== -->
+            <section class="view" id="view-payments">
+                <div class="page-head head-row">
+                    <div><h1>کنترل پرداخت</h1><p>هر درخواست با امتیاز ریسک و سقف تأیید بررسی می‌شود</p></div>
+                    <button class="btn" id="newPayment">＋ درخواست پرداخت</button>
                 </div>
-            </div>
+                <div class="cards mini" id="paymentKpis"></div>
+                <div class="toolbar">
+                    <input class="search" id="paymentSearch" type="search" placeholder="جستجو در شرح، طرف‌حساب یا شماره...">
+                    <select class="select" id="paymentRisk">
+                        <option value="">همهٔ ریسک‌ها</option>
+                        <option value="high">ریسک بالا</option>
+                        <option value="med">ریسک متوسط</option>
+                        <option value="low">ریسک پایین</option>
+                    </select>
+                    <div class="seg" id="paymentStatus">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="pending">در انتظار</button>
+                        <button data-value="approved">تأییدشده</button>
+                        <button data-value="stopped">متوقف</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>شناسه</th><th>تاریخ</th><th>طرف‌حساب</th><th>شرح</th><th>مبلغ (تومان)</th><th>ریسک</th><th>وضعیت</th><th></th></tr></thead>
+                        <tbody id="paymentBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="paymentMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== فاکتور خرید ===== -->
+            <section class="view" id="view-purchase">
+                <div class="page-head head-row">
+                    <div><h1>فاکتور خرید</h1><p>تطبیق سه‌طرفه: سفارش خرید، رسید انبار و فاکتور</p></div>
+                    <button class="btn" id="newInvoice">＋ ثبت فاکتور</button>
+                </div>
+                <div class="toolbar">
+                    <input class="search" id="invoiceSearch" type="search" placeholder="جستجو در شماره، تأمین‌کننده یا سفارش...">
+                    <div class="seg" id="invoiceStatus">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="mismatch">مغایرت</button>
+                        <button data-value="review">بررسی</button>
+                        <button data-value="matched">تأییدشده</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>فاکتور</th><th>تأمین‌کننده</th><th>سفارش</th><th>سفارش‌شده</th><th>رسیدشده</th><th>فاکتورشده</th><th>مبلغ (تومان)</th><th>نتیجه</th><th></th></tr></thead>
+                        <tbody id="invoiceBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="invoiceMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== تأمین‌کنندگان ===== -->
+            <section class="view" id="view-suppliers">
+                <div class="page-head head-row">
+                    <div><h1>تأمین‌کنندگان</h1><p>مشخصات، حساب بانکی و ریسک تأمین‌کننده</p></div>
+                    <button class="btn" id="newSupplier">＋ تأمین‌کنندهٔ جدید</button>
+                </div>
+                <div class="toolbar">
+                    <input class="search" id="supplierSearch" type="search" placeholder="جستجوی نام یا کد...">
+                    <div class="seg" id="supplierRisk">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="high">پرریسک</button>
+                        <button data-value="normal">عادی</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>تأمین‌کننده</th><th>کد</th><th>دسته</th><th>حساب بانکی</th><th>وضعیت</th><th>آخرین تغییر بانکی</th><th></th></tr></thead>
+                        <tbody id="supplierBody"></tbody>
+                    </table>
+                </div></div>
+            </section>
+
+            <!-- ===== کنترل عملکرد ===== -->
+            <section class="view" id="view-tasks">
+                <div class="page-head head-row">
+                    <div><h1>کنترل عملکرد</h1><p>هیچ کار مهمی نباید در ذهن یک نفر گم شود</p></div>
+                    <button class="btn" id="newTask">＋ ایجاد وظیفه</button>
+                </div>
+                <div class="toolbar">
+                    <input class="search" id="taskSearch" type="search" placeholder="جستجوی وظیفه، مسئول یا واحد...">
+                    <div class="seg" id="taskStatus">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="overdue">عقب‌افتاده</button>
+                        <button data-value="open">در حال انجام</button>
+                        <button data-value="done">تکمیل</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>واحد</th><th>وظیفه</th><th>مسئول</th><th>سررسید</th><th>وضعیت</th><th>اولویت</th><th></th></tr></thead>
+                        <tbody id="taskBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="taskMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== گزارش‌ها ===== -->
+            <section class="view" id="view-reports">
+                <div class="page-head head-row no-print">
+                    <div><h1>گزارش‌های مدیریتی</h1><p>خلاصهٔ قابل ارائه به مدیرعامل و هیئت‌مدیره</p></div>
+                    <button class="btn" id="printReport">چاپ / ذخیره PDF</button>
+                </div>
+                <div class="print-title">گزارش مدیریتی — <span id="reportDate"></span></div>
+                <div class="cards mini" id="reportKpis"></div>
+                <div class="grid-2">
+                    <div class="panel">
+                        <h2>خلاصهٔ وضعیت کنترل</h2>
+                        <p class="sub">بر اساس داده‌های زندهٔ سیستم</p>
+                        <div class="stat-list" id="reportStats"></div>
+                    </div>
+                    <div class="panel no-print">
+                        <h2>خروجی اکسل (CSV)</h2>
+                        <p class="sub">فایل‌ها با کدگذاری مناسب اکسل فارسی ساخته می‌شوند</p>
+                        <div class="export-list" id="exportList"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== کاربران ===== -->
+            <section class="view" id="view-users">
+                <div class="page-head head-row">
+                    <div><h1>کاربران و دسترسی</h1><p>نقش‌ها تعیین می‌کنند چه کسی می‌تواند تأیید یا تنظیم کند</p></div>
+                    <div class="head-actions">
+                        <button class="btn ghost" id="changePassword">تغییر رمز من</button>
+                        <button class="btn" id="newUser">＋ کاربر جدید</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>نام</th><th>ایمیل</th><th>نقش</th><th>بخش</th><th>وضعیت</th><th></th></tr></thead>
+                        <tbody id="userBody"></tbody>
+                    </table>
+                </div></div>
+                <div class="panel" style="margin-top:16px">
+                    <h2>بخش‌های کارخانه</h2>
+                    <p class="sub">رییس و کارکنان بخش باید عضو یکی از این بخش‌ها باشند؛ حسابدار درخواست خرید را به یکی از این بخش‌ها ارجاع می‌دهد</p>
+                    <div id="deptList" style="margin-bottom:12px"></div>
+                    <div class="toolbar" style="margin:0">
+                        <input class="input" id="deptName" maxlength="100" placeholder="نام بخش جدید، مثلاً کنترل کیفیت" style="min-width:240px">
+                        <button class="btn" id="deptAdd">＋ افزودن بخش</button>
+                    </div>
+                    <p class="error-line" id="deptError"></p>
+                </div>
+            </section>
+
+            <!-- ===== تنظیمات ===== -->
+            <section class="view" id="view-settings">
+                <div class="page-head head-row">
+                    <div><h1>تنظیمات کنترل</h1><p>قواعد هشدار، سقف تأیید و تطبیق فاکتور</p></div>
+                    <button class="btn" id="saveSettings">ذخیرهٔ تغییرات</button>
+                </div>
+                <div class="grid-even">
+                    <div class="panel">
+                        <h2>قواعد کنترل</h2>
+                        <p class="sub">خاموش‌کردن هر قاعده، امتیاز و هشدار مربوط را حذف می‌کند</p>
+                        <div id="controlToggles"></div>
+                    </div>
+                    <div class="panel">
+                        <h2>سقف‌های تأیید</h2>
+                        <p class="sub">حداقل نقش لازم برای تأیید بر اساس مبلغ (تومان)</p>
+                        <div id="tiers"></div>
+                        <div class="fld-row">
+                            <label class="fld"><span>آستانهٔ ریسک بالا (فقط مدیر سیستم تأیید می‌کند)</span><input class="input" id="setHigh" inputmode="numeric"></label>
+                            <label class="fld"><span>اختلاف مجاز رسید/فاکتور (٪)</span><input class="input" id="setTolerance" inputmode="decimal"></label>
+                        </div>
+                        <div class="fld-row">
+                            <label class="fld"><span>سقف بدهی خریدار برای ثبت درخواست خرید (تومان)</span><input class="input" id="setBuyerLimit" inputmode="numeric"></label>
+                        </div>
+                    </div>
+                </div>
+                <p class="error-line" id="settingsError"></p>
+            </section>
         </main>
     </div>
 
-    <script src="js/dashboard.js"></script>
+    <div class="modal-back" id="modalBack">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="modal-head"><b id="modalTitle"></b><button class="x" id="modalClose" type="button" aria-label="بستن">×</button></div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="js/config.js"></script>
+    <script src="js/scene.js" defer></script>
+    <script src="js/core.js" defer></script>
+    <script src="js/overview.js" defer></script>
+    <script src="js/business.js" defer></script>
+    <script src="js/control.js" defer></script>
+    <script src="js/admin.js" defer></script>
+    <script src="js/app.js" defer></script>
 </body>
 </html>

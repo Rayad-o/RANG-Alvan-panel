@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل کاربری</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/control.css">
+    <link rel="stylesheet" href="css/polish.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark">R</div>
+                <div><strong id="brandTitle">پنل کاربری</strong><small id="brandSub">Rang</small></div>
+            </div>
+
+            <nav id="nav"></nav>
+
+            <div class="me">
+                <span class="avatar" id="userAvatar"></span>
+                <span id="userName">—</span>
+                <small id="userRole"></small>
+                <button id="logoutBtn" type="button">خروج</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <!-- ===== داشبورد (محتوا بر اساس نقش ساخته می‌شود) ===== -->
+            <section class="view" id="view-home">
+                <div class="page-head">
+                    <h1 id="homeTitle">داشبورد</h1>
+                    <p id="homeSub"></p>
+                </div>
+                <div id="homeBody"></div>
+            </section>
+
+            <!-- ===== خریدار: بدهی‌های من ===== -->
+            <section class="view" id="view-myDebts">
+                <div class="page-head"><h1>بدهی‌های من</h1><p>بدهی‌هایی که حسابدار برای شما ثبت کرده است (تومان)</p></div>
+                <div class="buyer-notice"></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>شرح</th><th>تاریخ ثبت</th><th>سررسید</th><th>مبلغ</th><th>پرداخت‌شده</th><th>مانده</th><th>وضعیت</th></tr></thead>
+                        <tbody id="myDebtBody"></tbody>
+                    </table>
+                </div></div>
+            </section>
+
+            <!-- ===== خریدار: درخواست خرید ===== -->
+            <section class="view" id="view-myRequests">
+                <div class="page-head head-row">
+                    <div><h1>درخواست خرید</h1><p>درخواست خرید از کارخانهٔ رنگ ثبت کنید و مراحل آن را دنبال کنید</p></div>
+                    <button class="btn" id="newRequest">＋ درخواست خرید جدید</button>
+                </div>
+                <div class="buyer-notice"></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>شماره</th><th>تاریخ</th><th>اقلام</th><th>وضعیت</th><th>توضیح</th><th></th></tr></thead>
+                        <tbody id="myRequestBody"></tbody>
+                    </table>
+                </div></div>
+            </section>
+
+            <!-- ===== کارگران: درخواست‌ها ===== -->
+            <section class="view" id="view-requests">
+                <div class="page-head"><h1 id="requestsTitle">درخواست‌های خرید</h1><p id="requestsSub"></p></div>
+                <div class="toolbar">
+                    <input class="search" id="reqSearch" type="search" placeholder="جستجوی شماره، خریدار یا یادداشت...">
+                    <select class="select" id="reqStatus"></select>
+                    <select class="select" id="reqDept" hidden></select>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>شماره</th><th>تاریخ</th><th>خریدار</th><th>اقلام</th><th>بخش</th><th>مسئول</th><th>وضعیت</th><th></th></tr></thead>
+                        <tbody id="reqBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="reqMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== حسابدار: بدهی‌ها ===== -->
+            <section class="view" id="view-debts">
+                <div class="page-head head-row">
+                    <div><h1>ثبت و پیگیری بدهی‌ها</h1><p>بدهی خریداران را ثبت کنید و پرداخت‌ها را اعمال کنید (تومان)</p></div>
+                    <button class="btn" id="newDebt">＋ ثبت بدهی</button>
+                </div>
+                <div class="toolbar">
+                    <input class="search" id="debtSearch" type="search" placeholder="جستجوی خریدار یا شرح...">
+                    <div class="seg" id="debtStatus">
+                        <button class="on" data-value="open">باز</button>
+                        <button data-value="paid">پرداخت‌شده</button>
+                        <button data-value="voided">ابطال‌شده</button>
+                        <button data-value="">همه</button>
+                    </div>
+                    <span class="badge blue chip" id="debtChip" hidden></span>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>خریدار</th><th>شرح</th><th>ثبت</th><th>سررسید</th><th>مبلغ</th><th>پرداخت‌شده</th><th>مانده</th><th>وضعیت</th><th></th></tr></thead>
+                        <tbody id="debtBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="debtMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== حسابدار: خریداران ===== -->
+            <section class="view" id="view-buyers">
+                <div class="page-head"><h1>خریداران</h1><p>وضعیت بدهی هر خریدار؛ بدهی بیشتر از سقف مجاز، ثبت درخواست خرید را متوقف می‌کند</p></div>
+                <div class="toolbar"><input class="search" id="buyerSearch" type="search" placeholder="جستجوی نام یا ایمیل..."></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>خریدار</th><th>ایمیل</th><th>بدهی باز</th><th>امکان ثبت درخواست</th><th>درخواست‌های باز</th><th></th></tr></thead>
+                        <tbody id="buyerBody"></tbody>
+                    </table>
+                </div></div>
+            </section>
+        </main>
+    </div>
+
+    <div class="modal-back" id="modalBack">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="modal-head"><b id="modalTitle"></b><button class="x" id="modalClose" type="button" aria-label="بستن">×</button></div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+
+    <script src="js/config.js"></script>
+    <script src="js/core.js" defer></script>
+    <script src="js/portal.js" defer></script>
+    <script src="js/portal-buyer.js" defer></script>
+    <script src="js/portal-work.js" defer></script>
+    <script src="js/portal-boot.js" defer></script>
+</body>
+</html>

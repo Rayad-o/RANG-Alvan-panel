@@ -1,110 +1,106 @@
-from fastapi import APIRouter, UploadFile, File, Depends, HTTPException
+from fastapi import APIRouter, Depends, File, Query, UploadFile
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import or_
 from sqlalchemy.future import select
-from decimal import Decimal
-import pandas as pd
-from io import BytesIO
 
 from app.core.database import get_db
 from app.core.deps import get_current_user
-from app.models.user import User
+from app.core.excel import (
+    clean_amount,
+    map_columns,
+    read_tabular_file,
+    require_columns,
+)
 from app.models.inventory import InventoryItem
-from app.api.upload import normalize_persian, read_ms_xml_spreadsheet, clean_amount
+from app.models.user import User
 
 router = APIRouter(prefix="/inventory", tags=["Inventory"])
+
+COLUMN_MAP = {
+    "کد کالا": "code",
+    "عنوان کالا": "title",
+    "موجودی": "quantity",
+    # نام‌های رایج دیگر
+    "کد": "code",
+    "عنوان": "title",
+    "تعداد": "quantity",
+}
+
+REQUIRED = ["code", "title", "quantity"]
+
+
+def _text(value) -> str | None:
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text or text.lower() == "nan":
+        return None
+    return text
 
 
 @router.post("/upload")
 async def upload_inventory(
     file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
 ):
-    if not file.filename:
-        raise HTTPException(status_code=400, detail="فایل ارسال نشده است")
-
-    filename = file.filename.lower()
-    if not filename.endswith((".xlsx", ".xls", ".csv")):
-        raise HTTPException(status_code=400, detail="فقط فایل Excel یا CSV مجاز است")
-
-    content = await file.read()
-
-    try:
-        if filename.endswith(".csv"):
-            df = pd.read_csv(BytesIO(content))
-        else:
-            try:
-                df = pd.read_excel(BytesIO(content), engine="calamine")
-            except Exception:
-                try:
-                    df = read_ms_xml_spreadsheet(content)
-                except Exception:
-                    tables = pd.read_html(BytesIO(content))
-                    if not tables:
-                        raise ValueError("جدولی در فایل پیدا نشد")
-                    df = tables[0]
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=f"خواندن فایل ناموفق بود: {str(e)}")
-
-    df.columns = [normalize_persian(str(c).strip()) for c in df.columns]
-
-    column_map = {
-        "کد کالا": "code",
-        "عنوان کالا": "title",
-        "موجودی": "quantity",
-    }
-    rename_dict = {col: column_map[col] for col in df.columns if col in column_map}
-    df = df.rename(columns=rename_dict)
-
-    required_cols = ["code", "title", "quantity"]
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        raise HTTPException(
-            status_code=400,
-            detail=f"ستون‌های ضروری یافت نشد: {missing}. ستون‌های فایل: {list(df.columns)}"
-        )
+    df = map_columns(await read_tabular_file(file), COLUMN_MAP)
+    require_columns(df, REQUIRED)
 
     created = 0
-    errors = []
+    skipped = 0
+    errors: list[str] = []
 
     for idx, row in df.iterrows():
         try:
-            code = row.get("code")
-            title = row.get("title")
-            if pd.isna(code) or str(code).strip() == "" or pd.isna(title):
+            code = _text(row.get("code"))
+            title = _text(row.get("title"))
+            if code is None or title is None:
+                skipped += 1
                 continue
 
-            item = InventoryItem(
-                code=str(code).strip(),
-                title=str(title).strip(),
-                quantity=clean_amount(row.get("quantity")),
+            db.add(
+                InventoryItem(
+                    code=code,
+                    title=title,
+                    quantity=clean_amount(row.get("quantity")),
+                )
             )
-            db.add(item)
             created += 1
-        except Exception as e:
-            errors.append(f"ردیف {idx + 2}: {str(e)}")
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"ردیف {idx + 2}: {exc}")
 
     await db.commit()
 
     return {
         "message": "آپلود موجودی انبار انجام شد",
         "created": created,
+        "skipped": skipped,
         "errors": errors[:30],
     }
 
 
 @router.get("/")
 async def list_inventory(
+    q: str | None = Query(None, description="جستجو در کد یا عنوان کالا"),
+    limit: int = Query(500, ge=1, le=2000),
+    offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
-    result = await db.execute(select(InventoryItem).order_by(InventoryItem.title))
+    stmt = select(InventoryItem)
+    if q and q.strip():
+        like = f"%{q.strip()}%"
+        stmt = stmt.where(or_(InventoryItem.code.ilike(like), InventoryItem.title.ilike(like)))
+    result = await db.execute(stmt.order_by(InventoryItem.title).limit(limit).offset(offset))
     items = result.scalars().all()
     return [
         {
             "id": i.id,
             "code": i.code,
             "title": i.title,
-            "quantity": str(i.quantity),
+            # Numeric به str تبدیل می‌شود تا سریال‌ساز JSON شناور اعشاری ندهند
+            "quantity": None if i.quantity is None else str(i.quantity),
         }
         for i in items
     ]

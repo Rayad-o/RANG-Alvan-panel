@@ -1,3 +1,5 @@
+from typing import Optional
+
 from pydantic import BaseModel
 from app.models.user import UserRole
 
@@ -7,6 +9,7 @@ class UserCreate(BaseModel):
     full_name: str
     password: str
     role: UserRole = UserRole.staff
+    department: Optional[str] = None
 
 
 class UserLogin(BaseModel):
@@ -20,6 +23,7 @@ class UserOut(BaseModel):
     full_name: str
     role: UserRole
     is_active: bool
+    department: Optional[str] = None
 
     class Config:
         from_attributes = True
