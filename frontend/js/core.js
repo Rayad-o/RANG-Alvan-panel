@@ -17,10 +17,11 @@ if (!token || !user) {
 
 // هر پنل فقط برای نقش‌های خودش: داشبورد مدیریتی ↔ پنل خریدار/کارگران
 const INTERNAL_ROLES = ["admin", "manager", "staff"];
-const PAGE = location.pathname.split("/").pop();
-if ((PAGE === "dashboard.html" && !INTERNAL_ROLES.includes(user.role)) ||
-    (PAGE === "portal.html" && user.role === "staff")) {
-    location.replace(PAGE === "dashboard.html" ? "portal.html" : "dashboard.html");
+// Netlify نشانی‌ها را بدون پسوند هم سرو می‌کند (/portal) پس پسوند .html را نادیده می‌گیریم
+const PAGE = location.pathname.split("/").pop().replace(/\.html$/, "");
+if ((PAGE === "dashboard" && !INTERNAL_ROLES.includes(user.role)) ||
+    (PAGE === "portal" && user.role === "staff")) {
+    location.replace(PAGE === "dashboard" ? "portal.html" : "dashboard.html");
     throw new Error("wrong-panel");
 }
 
