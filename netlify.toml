@@ -13,6 +13,13 @@
   status = 200
   force = true
 
+# صفحهٔ داشبورد (/dashboard بدون پسوند) نباید به API پراکسی شود؛ این قانون باید قبل از /dashboard/* بیاید.
+[[redirects]]
+  from = "/dashboard"
+  to = "/dashboard.html"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/dashboard/*"
   to = "http://185.239.0.76:8080/dashboard/:splat"
