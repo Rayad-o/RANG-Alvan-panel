@@ -1,0 +1,1478 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10665</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Comma">
+   <NumberFormat ss:Format="_ * #,##0.00_-_ ;_ * #,##0.00\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s73" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s16">
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="154" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="45.75" ss:AutoFit="0"/>
+   <Column ss:Width="198.75" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="56.25" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="69.75" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="61.5" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="84" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="87" ss:AutoFit="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:MergeAcross="6" ss:StyleID="s78"><Data ss:Type="String">مرور مبلغی انبار محصول شهریور 1405</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كد كالا</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عنوان كالا</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">ورودي-مقدار</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">خروجي-مقدار</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">موجودي-مقدار</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">موجودي-مبلغ</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">موجودي-في متوسط</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200974</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر اخرايي ONAY حلب/25 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">13872000000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">27744000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200346</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد مات درجه 1 عراق/بشكه 240 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">13400000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">670000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200333</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مشكي مات درجه 1 عراق / بشكه 240 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">13299000000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">341000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200973</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر سفيدONAY حلب/ 25 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1538</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1025</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">513</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">11286000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">22000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200019</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد روغني 600 كيلو /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3813</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-495</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3318</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">9565400708</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2882881.4671479999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200272</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضدزنگ قرمز 4450 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2484</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-870</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1614</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3628547646</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2248170.7843860001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200155</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مشكي براق 815 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3055</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1887</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1168</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3537574160</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3028745</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200294</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">بتونه همه كاره كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4769</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1591</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3178</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3438926512</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1082104</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200494</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تمام پلاستيك 500 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">609</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-471</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3240285126</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">23480327</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200977</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">بتونه همه كاره كيلويي عراق/SIRAJ</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3164400000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">879000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200978</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بتونه همه كاره كيلويي عراق/ORIENT</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3163428000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">878730</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200273</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضدزنگ قرمز 4450 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">659</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-361</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">298</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2720125722</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">9127938.6644289996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200077</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">قهوه اي روشن براق 821 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">992</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-420</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">572</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2608139509</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4559684.4562929999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1000 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">372</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-73</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">299</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2263902490</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">7571580.2341130003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200213</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد مات 899 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1658</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1039</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">619</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2052382766</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3315642.5945069999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200221</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">روغن جلا 999 گالن /كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">268</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-40</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">228</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2052000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">9000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200321</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آكريليك نيم براق309 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-64</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1940942854</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">29408225.060605999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد براق 800 ربعي /  كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3050</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1181</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1869</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1903926022</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1018687.010165</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200020</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد روغني 600 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-432</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1879940264</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">11190120.619046999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200241</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1000دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">278</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-178</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1832840646</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">18328406.460000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200250</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1003 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">870</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-645</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1808640675</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">8038403</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200235</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضد زنگ طوسي 3350 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-725</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2375</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1800543079</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">758123.40168400004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200002</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد براق 800 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4645</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-4205</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">440</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1608942088</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3656686.5636359998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200311</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر اخرايي گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1401</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1132</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">269</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1499315616</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5573664</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200253</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1003 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-114</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1446985936</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">16443022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200084</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">طوسي سير براق 808 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">689</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-288</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">401</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1380912873</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3443673</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200288</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر طوسي گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2118</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1888</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1322362325</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">5749401.4130429998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200314</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر اخرايي حلب/كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-49</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1205671500</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">27401625</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200495</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تمام پلاستيك 500 گالن /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">408</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-282</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1191753052</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">9458357.5555550009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200126</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">قرمز روشن براق 833 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1768</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-675</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1093</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1168678227</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1069239</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200503</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1001 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">403</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-221</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1093604537</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6008816.1373619996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200323</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آكريليك نيم براق 309 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">892651920</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">11158149</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200289</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 902 دبه (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">599</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-484</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">739919291</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6434080.7913039997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200302</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آكريليك مات 305 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-110</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">681733569</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">23508054.103448</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200575</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر طوسي شوك صادراتي / گالن</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">272</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-160</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">668244304</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">5966467</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200502</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1001 دبه /كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">418</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-373</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">647068815</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">14379307</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200252</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1003 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-552</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">597311602</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4035889.2027019998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200979</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">عايق شفاف همه كاره كاوه/حلب</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">595000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">59500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200972</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">چسب چوب كيلويي/شوك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">618</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-25</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">593</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">593000000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200023</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد روغني 600 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-40</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">560946540</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">56094654</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200574</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر طوسي شوك صادراتي / كيلو</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">780</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-480</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">526604667</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1755348.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200361</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر مشكي گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">466</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-384</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">492852882</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6010401</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200404</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر اخرايي شوك گالن / صادراتي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-160</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">462420915</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">5780261.4375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200003</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد براق 800 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">796</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-764</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">444316064</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">13884877</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200836</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمراكريليك (زيركارآب پايه) گالن /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-84</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">412970420</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3412978.677685</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200572</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1002 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">704</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-625</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">386163534</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4888146</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200266</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1004 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-105</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">294747882</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">13397631</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200119</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">قرمز روشن براق 833 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">642</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-568</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">291051990</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3933135</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200282</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 901 دبه (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-120</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">286342853</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">12449689.260869</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200295</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">بتونه همه كاره گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-133</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">210707207</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4214144.1399999997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200265</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1004 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">888</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-832</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">187764352</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3352934.857142</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200976</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر سفيد POLY SOK  حلب/ 15 كيلويي جديد</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">463</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-453</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">182960000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">18296000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200406</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر اخرايي شوك كيلو/صادرتي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-492</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">180508176</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1671372</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200219</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">روغن جلا 999 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-576</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">80801360</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3366723.3333330001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200368</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر مشكي كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1080</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1068</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">44361374</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3696781.1666660002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200738</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">رنگ آبي استخري گالن 4 كيلويي BERKEH  /تاجيكستان</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">16478000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4119500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200055</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مشكي مات 708 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1587</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1584</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">8004355</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2668118.3333330001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200577</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر سفيد كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5364647</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2682323.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200488</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آستر مشكي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">376</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-376</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200487</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آستر مشكي 305 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200975</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر آبي poly sok حلب/ 15 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-410</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200867</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر اخرايي poly shok حلب /25كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2046</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2046</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200896</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر اخرايي poly shok حلب/15كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-100</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200971</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر زرد ONAY حلب/15 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-210</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200884</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر زرد poly shok حلب/25كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">157</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-157</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200895</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر سبز poly shok حلب/15كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200887</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر سبز سير poly shokحلب/25كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200970</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر سفيد ONAY حلب/15 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1500</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200226</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">روغن جلا 999</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1229.76</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1229.76</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200434</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سبز سوله 2253حلب /كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-17</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200588</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد براق 800 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200218</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد مات 899</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1807.22</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1807.22</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200162</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مشكي براق 815 حلب/كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-31</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">400132</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 901</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1647.36</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1647.36</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200283</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 901 گالن (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-17868096</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">4467024</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200381</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آبي سوله 2251 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-25079885</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1044995.208333</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200269</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تمام پلاستيك 900 گالن (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-8</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-8</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-63468747</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">7933593.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200172</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">مشكي روغني 615 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-66960768</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2790032</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200145</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">قرمز روشن براق 833 حلب /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-87010000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">43505000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200316</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر اخرايي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">26783.919999999998</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-26840.799999999999</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-56.88</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-91668831</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1611617.985232</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200290</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 902 گالن (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">382</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-416</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-34</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-93530502</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2750897.1176470001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200107</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نارنجي براق 810 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-200</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-94641600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">473208</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200326</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رنگ آكريليك 300 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-105634824</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">5281741.2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200274</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضد زنگ قرمز 4450 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-350</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-350</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-124009486</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">354312.81714200001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200080</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">قهوه اي روشن براق 821 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-275</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-275</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-128804762</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">468380.952727</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200097</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">قهوه اي سير براق 822 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-300</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-300</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-140621412</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">468738.04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200398</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تينر روغني گالن ممتاز / شوك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-151</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-151</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-144797629</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">958924.69536400004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200276</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضد زنگ قرمز 4450 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-71</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-11</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-171150177</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">15559107</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200387</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آبي سوله 2251 حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-179237290</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">35847458</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200947</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">چسب چوب صادراتي/كيلو</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-180</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-180</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-181220580</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1006781</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200228</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آستر سفيد 400 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-24</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-184409044</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">7683710.1666660002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200754</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1004 دبه / صادرات</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-227050300</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2270503</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200719</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مادر رنگ گلماشي 350 گرمي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-255</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-255</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-246608523</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">967092.24705799995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200357</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر آبي سير كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-255870000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1776875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200385</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آبي سوله 2251 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-40</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-40</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-257337514</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6433437.8499999996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200065</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">گلماش براق 806 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-108</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-108</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-261123020</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2417805.7407399998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200844</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">طوسي سير براق 808 گالن/كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-47</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-47</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-316662500</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6737500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200070</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نقره اي نسوز براق 820ربعي/كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-250</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-250</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-331369500</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1325478</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200220</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">روغن جلا 999 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-475</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-475</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-361720763</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">761517.39578899997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200496</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">تمام پلاستيك 500 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-362236752</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2515533</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200056</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">زرد ليمويي براق 803 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-96</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-96</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-362715840</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3778290</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200157</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">مشكي براق 815 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-425</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-425</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-391089250</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">920210</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200899</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پوشرنگ تمام پلاستيك استاندارد بركه (لاتكس)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-452255200</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">22612760</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200486</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آستر مشكي 305 گالن/كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-76</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-76</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-456456000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6006000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200175</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">زرد سير براق 807 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-425</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-425</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-459864450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1082034</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200518</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">تينر روغني ممتاز شوك ليتري</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-487059587</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">541177.31888799998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200320</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر سفيد گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-76</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-76</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-540695692</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">7114417</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200227</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آستر سفيد 400 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-210</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-210</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-548228250</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2610610.7142850002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200132</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سبز چمني براق 814 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-500</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-500</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-550933000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1101866</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200730</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">مادر رنگ مشكي 350 گرمي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-583999800</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">973333</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200340</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رنك اكريليك پرايمين  (درجه 1) دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-56</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-56</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-608310808</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">10862693</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200354</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر آبي سير گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-108</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-105</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-616030145</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5866953.7619040003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200237</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ضد زنگ طوسي 3350 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">554</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-651</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-97</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-632211977</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">6517649.2474220004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200069</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">گلماش براق 806 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-700</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-700</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-722887900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1032697</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200215</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد مات 899 حلب /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-13</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-13</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-743600000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">57200000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200248</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1002حلب / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-168</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-34</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-748230770</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">22006787.352940999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200025</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد روغني ممتاز 700 كيلو /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-300</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-300</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-859500000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2865000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200372</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">رنگ آكريليك نما دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-36</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-36</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-859607656</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">23877990.444444001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200254</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1003 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-780</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-780</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-931415343</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1194122.234615</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200264</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1004 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">907</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1043</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-136</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-973547942</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">7158440.75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200214</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد مات 899 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">261</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-342</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-81</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-993203115</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">12261766.851851</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200178</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">آبي سير براق 817  ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1025</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1025</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1014428972</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">989686.801951</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200173</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">زرد سير براق 807 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-276</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-276</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1085548848</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3933148</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200245</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نيم پلاستيك 1002 دبه / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">789</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-893</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-104</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1149652129</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">11054347.394230001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200556</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ضدزنگ طوسي 3350 حلب/كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-70</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1199664270</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">39988809</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200060</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">مشكي مات 708 گالن /كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-144</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1204345591</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8363511.0486110002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200573</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رنگ طلايي براق 830 ربعي / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-552</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-552</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1218613416</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2207633</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200662</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سفيد روغني ممتاز 700 حلب /كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-20</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1266720000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">63336000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200299</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بتونه همه كاره</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">10805.01</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-11987.61</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1182.5999999999999</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1279696191</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1082104.0005069999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200103</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">نارنجي براق 810 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-348</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-348</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1393156404</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4003323</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200085</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">طوسي روشن براق 809 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-516</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-516</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1521162518</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2947989.3759679999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200129</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">سبز چمني براق 814 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-399</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-399</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1584856329</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3972071</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200759</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيم پلاستيك 1002 دبه /صادراتي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-155</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-155</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1726873654</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">11141120.348386999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200158</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">مشكي براق 815 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-168</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-168</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1809493392</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10770794</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200307</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر طوسي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2160</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-3386.88</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1226.8800000000001</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1840320000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200094</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">قهوه اي سير براق 822 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-588</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-588</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2012366937</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3422392.75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200300</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر طوسي حلب /كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-136</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-72</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2017700856</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">28023623</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200308</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر اخرايي كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1824</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-3084</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1260</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2030072520</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1611168.6666659999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200031</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كرم سير براق 802 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-628</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-628</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2096520198</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3338407.958598</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200966</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">روغن جلا SHOK VIP گالن/3 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-400</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-400</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-3000000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">7500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200027</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كرم روشن براق 801 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-900</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-900</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-3098635702</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3442928.5577770001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200268</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">تمام پلاستيك 900 دبه (محصول جديد)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-160</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-160</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-3116397236</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">19477482.725000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200177</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آبي سير براق 817 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-960</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-960</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-3435982015</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">3579147.9322910002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200286</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ضدزنگ اخرايي</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1812.56</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-3623.04</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-1810.48</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-3946846400</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2180000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200234</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ضد زنگ طوسي 3350 كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">113</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2284</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-2171</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-4666127649</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2149298.7789030001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200287</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">پرايمر طوسي كيلو / كاوه</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1953</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-4800</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2847</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-4754358756</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1669953.9009479999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">400121</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پرايمر سبز صادراتي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2694.6</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-6081.6</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-3387</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-5080500000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">1500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200969</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">رنگ آبي استخري دبه 10 كيلوييBERKEH /تاجيك</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">490</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-795</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-305</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-7320000000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200967</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">روغن جلاFARBELIK گالن/4 كيلويي</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1788</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-1788</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-16092000000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">9000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">200964</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">رنگ آبي استخري گالن 4 كيلوييBERKEH /تاجيك</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2392</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-2256</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">-19852800000</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8800000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200026</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سفيد روغني ممتاز 700 گالن / كاوه</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-140</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-140</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-27573000000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">196950000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">123112.43</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-128225.27</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-5112.84</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">-20562306161</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2404933224.8238411</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

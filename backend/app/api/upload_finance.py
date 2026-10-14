@@ -8,6 +8,7 @@ from app.core.deps import get_current_user
 from app.core.excel import (
     clean_amount,
     map_columns,
+    normalize_persian,
     read_tabular_file,
     require_columns,
 )
@@ -23,7 +24,8 @@ def _text(value) -> Optional[str]:
     text = str(value).strip()
     if not text or text.lower() == "nan":
         return None
-    return text
+    # حروف عربی (ي/ك) → فارسی تا جستجوی فارسی در دفتر حساب جواب بدهد
+    return normalize_persian(text) or None
 
 
 async def _import_ledger(

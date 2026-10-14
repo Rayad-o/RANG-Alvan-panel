@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10665</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Comma">
+   <NumberFormat ss:Format="_ * #,##0.00_-_ ;_ * #,##0.00\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#EAEBED" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#EAEBED" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s16">
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="89" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="12" ss:AutoFit="0"/>
+   <Column ss:Width="42" ss:AutoFit="0"/>
+   <Column ss:Width="114" ss:AutoFit="0"/>
+   <Column ss:Width="72" ss:AutoFit="0"/>
+   <Column ss:Width="84.75" ss:AutoFit="0"/>
+   <Column ss:StyleID="s82" ss:Width="88.5" ss:AutoFit="0"/>
+   <Column ss:Width="85.5" ss:AutoFit="0"/>
+   <Column ss:Width="60" ss:AutoFit="0"/>
+   <Column ss:Width="51" ss:AutoFit="0"/>
+   <Column ss:Width="69" ss:AutoFit="0"/>
+   <Column ss:Width="90" ss:AutoFit="0"/>
+   <Column ss:Width="85.5" ss:AutoFit="0"/>
+   <Column ss:Width="216" ss:AutoFit="0"/>
+   <Row>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تفصيلي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">طرف مقابل</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نوع</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شماره</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">مبلغ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تاريخ سررسيد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تاريخ رسيد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بانك</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">وضعيت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تاريخ وصول، واخواست</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صاحب چك</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شرح</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="4" ss:StyleID="s63"><Data ss:Type="String">ارز: ريال (تعداد 86 ركورد)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">114845980000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10094</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">زالي زاده محمد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">006552</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/05</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/08</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كشاورزي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمود نجفي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">689381</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">150000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/05</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/31</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رضا حسين وند</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">683437</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/06</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">683441</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/06</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">683440</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/06</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">567783</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">100000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/06</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/31</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كبري حسيني</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10275</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">پرمو محمد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">988072</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/08</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">علي پرمو</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10274</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">جمشيدي اقاي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">867908</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/09</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عليرضا جمشيذي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10285</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عبدي ايوب</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">025242</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ايوب عبدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10073</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">فرجي مهدي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">139129</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/06</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سيدانور حسيني</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10274</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">جمشيدي اقاي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">345859</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">100000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">پست بانك</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">وحيد جمالي خانه برق</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">بابت دريافت دو فقره چك به راس </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">599593</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1813500000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/27</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">محمدكاظم اميني</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">504927</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">690000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/11</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/31</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كشاورزي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمد عزيزانباري</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10095</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شكاك بهمن</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">468430</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/12</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/01</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ياسين شكاك</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10076</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">گل محمدي نقده رضا</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">477528</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/15</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسعد جوانگر قره سقل</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10285</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عبدي ايوب</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">025243</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/24</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ايوب عبدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">227744</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">570000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/15</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل عباس پور</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10120</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">يزداني سيد رسول</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">702222</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سيد رسول يزداني</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10789</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">نادي فرشيد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">518734</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/15</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">نقش فردا آرمان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10800</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پدرام قهرماني</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">905298</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1402480000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/18</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پدرام قهرماني</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10747</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">حميدي مهران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">981218</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1700000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/16</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهران حميدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10101</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">داريني اميد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">210496</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/17</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/22</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">امين داريني</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">263667</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2500000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/18</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">پست بانك</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">فريبا خوش رو</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">620153</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/18</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/01</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ابراهيم فقيهي زاده</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10104</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خدائيان ابراهيم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">234875</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">900000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/08</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ابراهيم خدائيان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">024616</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">800000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سيد قادر شكري</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">681021</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رحيم جمشيدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">835846</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">800000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهرداد حميدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">979955</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/04</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مجتبي نجابت</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10694</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">باقري مجتبي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">208821</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/04</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پست بانك</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مسعود شيرازي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10073</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">فرجي مهدي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">109362</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1250000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">بانك توسعه تعاون</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">فواد رشيدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10073</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">فرجي مهدي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">218319</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/06</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رزگار مروتي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10181</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">حبيبي بايزيد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">920517</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">جواد نعمت زاده</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">بابت دريافت دوفقره چك ب سررسيد 1405/06/20 و 1405/07/20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">471985</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/19</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كمال عزيزي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">32فقره چك</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">006083</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/27</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمدمحسن محسني</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">200050</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/27</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خالد رشيدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">711069</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">180000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/20</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عبيداله زماني</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">683444</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/21</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">683442</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/21</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10602</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">شبان اسماعيل</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">683443</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/21</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/16</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اسماعيل شبان</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">931130</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/22</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/25</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مصطفي زارع</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10075</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آخرت طلب سيد حميد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">710235</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/25</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سيد حميد آخرت طلب</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">681022</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رحيم جمشيدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">988655</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">750000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عليرضا بابازاده</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10277</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباسي ايرج</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">538310</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/01</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ايرج عباسي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">385256</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/08</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بانك توسعه تعاون</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مسعود اسدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">446304</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">حميد خانزادي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10093</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">گل محمدي بوكان حسن</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">363843</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/08</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">حسن گل محمدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">011707</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">700000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/28</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/31</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">داريوش مرادي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10076</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">گل محمدي نقده رضا</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">824370</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">300000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/28</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/07</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اسماعيل خودكام</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10789</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">نادي فرشيد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">543637</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">140000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/28</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كشاورزي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">نقي صمدي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">835892</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/28</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كشاورزي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اسمعيل مرادي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10159</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كشوردوست عمران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">726805</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/29</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/22</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رئيسعلي حسيني</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10104</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خدائيان ابراهيم</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">234874</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">900000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/08</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ابراهيم خدائيان</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">234877</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ابراهيم خدائيان</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10094</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">زالي زاده محمد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">284986</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/17</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">محمد زالي زاده</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">630341</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1500000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/20</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">زهرا يوسف زاده</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">980004</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/20</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رضا ميكائيل نژاد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">5فقره</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10159</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كشوردوست عمران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">081226</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">7000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/22</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمدرسول غلامي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10159</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كشوردوست عمران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">883176</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2700000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/22</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رفاه كارگران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مصطفي احمدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10272</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عزيزي كمال</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">609735</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">800000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">كمال عزيزي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10113</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">جهانگيري طاهر</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">812023</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">370000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/24</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">علي تيز پنجه</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10113</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">جهانگيري طاهر</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">624085</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/24</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمدامين رضوي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">466743</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهرداد عنصري</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">988653</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">700000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عليرضا بابازاده</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">681023</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">رحيم جمشيدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">459819</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">300000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خسرو روحي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10751</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مرادي مجيد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">274906</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">890000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/04</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مجيد مرادي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10068</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">رجب پور كريم</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">979956</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">3000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/04</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مجتبي نجابت</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10694</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">باقري مجتبي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">208830</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/04</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پست بانك</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مسعود شيرازي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">038471</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">350000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/06</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اردشير جباري</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10073</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">فرجي مهدي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">109363</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1250000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/06</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بانك توسعه تعاون</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">فواد رشيدي</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10079</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">موسايي سجاد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">477379</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/08</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">بانك توسعه تعاون</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">محمد حسين پور</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10090</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">احمدزاده آريا</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">492818</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">مهر ايران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">امير زكي زاده</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10363</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">آقاي عليپور اميد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">330678</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">5300000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">پست بانك</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل علي پور</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10078</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">عباس زاده سهند</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">772832</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">300000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كريم امين پور</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بابت دريافت 8فقره چك به راس</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10274</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">جمشيدي اقاي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">867919</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">عليرضا جمشيدي ملكي</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">بابت دريافت دو فقره چك به راس </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10167</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">درخشان آرش</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">060469</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">150000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/14</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">آرش درخشان</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10789</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">نادي فرشيد</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">312535</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">390000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/05/31</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">سپه</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">حسن فرسادي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10789</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نادي فرشيد</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">406018</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/05/31</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">صادرات</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بهروز هوشمند</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10269</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مظلومي داريوش </Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">713021</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/08</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ملت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">اسماعيل بهرامي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10747</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">حميدي مهران</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">326410</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">نيما شاهين مهر</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">759646</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مسكن</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">سعيد خسروي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">194157</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1500000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ملي</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">كيهان دهقان </Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10032</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">يوسفي عارف</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">998823</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تجارت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">فرميسك رضايي</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">10296</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">پورآقاجان افشين</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">دريافت از مشتري</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">555511</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">9000000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1405/07/09</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">اقتصاد نوين</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">خرج شده</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">بيتا خشت كار</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">114845980000</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>5</ActiveCol>
+     <RangeSelection>C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

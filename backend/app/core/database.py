@@ -37,6 +37,8 @@ async def get_db():
 # create_all فقط جدول‌های جدید می‌سازد؛ این فهرست دیتابیس‌های قدیمی را بدون از دست رفتن داده ارتقا می‌دهد.
 COLUMN_MIGRATIONS = [
     ("users", "department", "VARCHAR(100)"),
+    ("inventory_items", "stock_value", "NUMERIC(18, 2)"),
+    ("inventory_items", "avg_price", "NUMERIC(18, 4)"),
 ]
 
 

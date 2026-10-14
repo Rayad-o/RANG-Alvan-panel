@@ -11,6 +11,8 @@ from app.api import accounting, buyer, departments, requests as requests_api
 from app.api import settings as settings_api
 from app.api.upload_finance import router as upload_finance_router
 from app.api.upload_expense import router as expense_upload_router
+from app.api.upload_treasury import router as upload_treasury_router
+from app.api.treasury import router as treasury_router
 from app.api.inventory import router as inventory_router
 from app.core.config import settings
 from app.core.database import engine, Base, ensure_columns
@@ -52,7 +54,7 @@ _internal = [Depends(internal_only)]
 for _router in (
     dashboard.router, suppliers.router, payments.router, purchase_invoices.router, tasks.router,
     settings_api.router, sales.router, finance.router, upload.router, expense_upload_router,
-    upload_finance_router, inventory_router,
+    upload_finance_router, upload_treasury_router, treasury_router, inventory_router,
 ):
     app.include_router(_router, dependencies=_internal)
 

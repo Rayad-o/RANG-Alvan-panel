@@ -1,0 +1,720 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10665</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Comma">
+   <NumberFormat ss:Format="_ * #,##0.00_-_ ;_ * #,##0.00\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s16">
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="34.5" ss:AutoFit="0"/>
+   <Column ss:Width="248.25" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="88.5" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="84" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="87.75" ss:AutoFit="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="4" ss:StyleID="s80"><Data ss:Type="String">مرور مانده سایر ح پ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كد</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">عنوان</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">گردش بدهكار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">مانده بدهكار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">مانده بستانكار</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10693</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شركت صنايع همزن كيميا ميكسر</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">21600000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">16600000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10441</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">هاتف كابل</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2239750000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10526</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ديگ بخار ماشين سازي فولاد آرين</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1726000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10036</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">بدري فرزاد بدري آي تي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">939000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">546000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10504</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">پاكمهر سيمين برق</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1584000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">528350000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10572</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">مخلصي تيشرت </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">512000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10772</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">صنايع بخار اراك عمران</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">3322800000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">492000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10380</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">سام مرتضي طلوعي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">210000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10417</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كركره زني زرين سقف قوشاچاي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">220600000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">181550000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10273</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">رستوران نگين پاشايي </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">590880000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">180730000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10543</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">فاتحي محمد</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">120000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10805</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">رستمي ترمومتر ابراهيم</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">110000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10690</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">دائمي ابزار مركزي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">520000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">93000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10284</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">توحيدي پروفيل (ساختمان جديد)</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">65004000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10857</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">هنر خدمات چاپي </Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">240000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">60000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10453</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">مستغني الميرا بيمه ايران</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">830179000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">45000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10625</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">سرويس ناصر رحيمي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">180000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">30000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10852</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">مصالح صادقي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">13500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10001</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">اصغرزاده مهدي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">45000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10035</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">خاني ساسان</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">340400000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">340400000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10064</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">اسلامي عليرضا ميكسر</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10303</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">افشاريان حبيب </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">25000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10308</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شريفي شخصي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">34600000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">34600000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">80095</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">غذاخوري ماهور شهرك</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1039700000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">157500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10393</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">بابك محمدي ابزارآلات صنعتي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2744000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2033600000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10395</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">جوشكار ناصر پور عباس</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10398</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">نصيري ام دي اف بهبود چوب</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2164900000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">4900000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10407</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">كتاب فروشي و لوازم التحرير كوروش</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">253059000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">153639000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10412</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">محمدي ميلاد</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">160000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">160000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10419</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">فردوسي لوازم اداري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">24000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10463</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">هادي فيروزي لوله و اتصالات اركوت</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">417270000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10468</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">چرخ  نگين</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">51400000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">51400000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10475</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">يوسفي خدمات جرثقيل</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">160000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10508</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">جولايي خدمات ايمني باران</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">39000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10519</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">رادياتور ليفتراك علي مددپور</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">220000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10520</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">سلمان زاده حسن </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">550000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">550000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10546</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">جوشكار طاهر طاهري</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">474500000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">474500000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10547</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">گمرك بهمن ياري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10553</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شركت زرين پروفيل قوشاچاي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">120800000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10566</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ترازو حسينيان </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">125000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">125000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10568</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">معدن پسندي بازرگاني برق</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">4573757000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2835157000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10595</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">تابع خمكاري و برش كاري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">160400000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10616</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">بابك شهردار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10627</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">شركت پيرانه زيست قزوين</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">205836250</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">82082863</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10629</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">نوشت افزار كيومرث محبي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">232000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10635</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">سليماني تعمير و نصب پمپ سهراب</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">85000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10643</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ساسان صنعت پيشگام آتيه</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">12627033</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10644</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">عرب زاده قاضيجهاني كريم</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10655</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شاكري فروشگاه ديزل موتور </Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">68000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10692</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">راه اندازي راكتور جعفرقادري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1700000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1700000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10695</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">پروانه راكتور ياور مقدم</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2357000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2357000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10699</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">جوشكار بهلول رجب پور</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">214500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">214500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10709</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">پيمانكار حسن خيمه كبود</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">5500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">5500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10715</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">جوشكار ايرج عزيززاده</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">75000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">75000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10720</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">طهماسبي جهانگير</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">346500000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10746</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">شيخي اسلام</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">35000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10763</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">مشاور قسمت پايه آب راكتور حامد كاظمي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">400000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10785</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">مشتري محمدخاني حسن زاده</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">527000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10793</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">لرزه گير محمد رضا آتشيان</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">420000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10806</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">شاهان لوازم خانگي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1985000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">185000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10807</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شيخي تراشكاري و فرزكاري</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">57000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">27000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10809</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">اللهوردي زاده داربست آسمان</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">159000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">159000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10817</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String"> فرزاد رضازاده تعويض روغني</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">60000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">60000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10818</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String"> محمدرحيمي ترازوي ديجيتالي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">43950000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10824</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">گمرك ترخيص كار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">18920520000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10827</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">رحمان سپهري فر كارگاه فني آتشكار</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">475000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10831</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">حسن عبدالعظيمي ترخيص كار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">7980000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10832</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">فروشگاه جليل بهرامي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2167000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1390000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10833</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">علي مولايي ترخيص كار گمرك</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">4323800000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10834</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">زربافي دنياي پليمري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2420000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">300000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10836</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">حسين سياح ميكسر آزمايشگاهي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10837</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">صغري خوشخو ترخيص كار منصوري</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4267160000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10838</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ايران كد</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">251762500</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10840</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">بوكان ابزار سلطاني</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">40000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10841</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">گروه فني مهندسي كيوسي تستر</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10844</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">علي راشدي جوشكار</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">135000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10847</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">علي نصراللهي تعمير ليفتراك</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10848</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String"> علي ثابتي زارعي طراحي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">60000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">60000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10850</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شركت آرايه هاي معماري رضوي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">13500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">13500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10851</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">جعفر خرامان پاتيل آزمايشگاهي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">50000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">50000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10854</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كرامت چرخ پلاستيكي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">110000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10856</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ماشين سازي پركن رستمي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4000000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10862</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شن و ماسه مالك اميني</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">99000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">158277500783</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">76016478863</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">23752884000</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R86C5</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
