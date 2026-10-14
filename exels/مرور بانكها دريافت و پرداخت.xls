@@ -1,0 +1,456 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10665</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Comma">
+   <NumberFormat ss:Format="_ * #,##0.00_-_ ;_ * #,##0.00\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s16">
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="43" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="52.5" ss:AutoFit="0"/>
+   <Column ss:Width="216" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="88.5" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="99.75" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="88.5" ss:Span="1" ss:AutoFit="0"/>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">كد تفصيلي</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">عنوان</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">اول دوره</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">دريافت ها</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">پرداخت ها</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">مانده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">039</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">سينا شعبه مياندوآب (علي شريفي) 16877813642525001</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">51791625424</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">189047339000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">204007288793</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">36831675631</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">051</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">اقتصاد نوين سحرشيمي-مسدودي ‎⁮1141-373-10001-1‬</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">25000000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2220000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">27220000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">052</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">اقتصاد نوين مسدودي وام خرددين 123456789</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">22500000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">22500000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">037</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت كارخانه قند 2833052896</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">15607179098</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">137482575488</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">138023019077</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">15066735509</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">001</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 4467268086</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">9694300</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">14200000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1200000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">13009694300</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">044</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">سينا سحر شيمي مياندوآب 168.758.14000196.1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11500000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11500000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">017</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملي مياندوآب 0106539524007</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2060000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">650000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2710000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">031</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">رفاه كارگران مياندوآب 397197378</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">31109891</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1031109891</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">046</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">صنعت و معدن سحرشيمي الوان 104016902009</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">52170000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1110000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">153957500</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">1008212500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">042</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت خانم رضايي 9880155719</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">820000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">820000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">015</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">صادرات مياندوآب 218112690007</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">780000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">780000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">016</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">سپه ميدان اتقلاب 1220759174133811</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">397117586</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">397117586</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">038</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">سينا سحرشيمي شعبه مياندوآب 16877614000196001</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">20008475989</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">90848773500</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">110471081662</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">386167827</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">049</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">سپه علي شريفي 12204096729911</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">310000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">46796</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">309953204</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">004</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 9575807936(كتابعلي شريفي)</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">23786004</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2800000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2599253040</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">224532964</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">029</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">رفاه كارگران مياندوآب 393023096</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">13166983</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3100000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2956830996</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">156335987</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">021</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">بانك شهر اطبا 4001001378473</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">147780100</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">147780100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">009</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">صادرات مياندوآب 339819409003</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">105000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">105000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">050</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند پايتخت ايرانيان 9943242284</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">171278</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">26500000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">26400000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100171278</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">020</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-1-7804952-1جاري علي شريفي‬</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4313550</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4880000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4800000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">84313550</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">002</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 4547684111</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">108738494</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">7530000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">7559286909</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">79451585</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">022</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">بانك انصار انقلاب 9672991001</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">77000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">77000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">012</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">سپه ميدان اتقلاب 122043174133811</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">16909938</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">648000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">16261938</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">048</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت علي شريفي 4545854938</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">14145430</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">488082</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">14633512</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">003</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">10354833383</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">186669488550</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">197009814485</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">14507448</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">047</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">اقتصاد نوين علي شريفي ‎⁮1141-800-7084952-1كوتاه مدت‬</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11584808</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">49988</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">41978</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11592818</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">013</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-850-7084960-01كوتاه مدت سحرشيمي‬</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">6414854</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">43084</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">743100</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">5714838</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">025</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت كارخانه قند 2184199279</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">11279378</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4445550143</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4451431013</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">5398508</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">026</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">پست بانك مياندوآب 3000243889349</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">4460180</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">4460180</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">053</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">سينا آينازرضايي ‎⁮168-775-5758216-1‬</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">3000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">040</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">سينا جاري سحرشيمي شعبه مياندوآب 16800414000196001</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">14300000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">14300000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">032</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت كارخانه قند 2340169125</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">712742</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">712766</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">005</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 9888917777</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">87506327</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">20140000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">20227036066</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">470261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">007</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت كارخانه قند 9960058395</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">327176</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">327176</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">036</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملت كارخانه قند 2606473612</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">302000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">302000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">030</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ملت مياندوآب 2340163214</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">248228</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">248228</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">010</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">ملي مياندوآب 117239488008</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">83204550</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">50986660000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">51069771000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">93550</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">028</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">پست بانك مياندوآب 1000239773756</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">80523</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">80523</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">006</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">پست بانك مياندوآب 234604626</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">200000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">019</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-2-7804960-1جاري سحرشيمي‬</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">27915118</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">39880000000</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">39907915118</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">041</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">سينا شعبه مياندوآب ‎⁮168-3-13642525-1‬</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2976000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">2976000000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s75"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">161972253332</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">800966967859</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">828314165533</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">134625055658</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R43C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -78,6 +78,30 @@ async def summary(
 
     inventory_items = (await db.execute(select(func.count(InventoryItem.id)))).scalar_one()
 
+    # داده‌های «مرور مبلغی انبار محصول» برای نمودار صفحهٔ اول:
+    # ارزش موجودی و فی متوسط (میانگین قیمت) کالاها
+    stock_rows = (
+        await db.execute(
+            select(InventoryItem.title, InventoryItem.stock_value, InventoryItem.avg_price)
+            .where(InventoryItem.stock_value.is_not(None))
+            .order_by(InventoryItem.stock_value.desc())
+            .limit(10)
+        )
+    ).all()
+    stock_value_total = _num(
+        (await db.execute(
+            select(func.coalesce(func.sum(InventoryItem.stock_value), 0))
+        )).scalar_one()
+    )
+    avg_rows = (
+        await db.execute(
+            select(InventoryItem.title, InventoryItem.avg_price, InventoryItem.stock_value)
+            .where(InventoryItem.avg_price.is_not(None), InventoryItem.avg_price > 0)
+            .order_by(InventoryItem.avg_price.desc())
+            .limit(10)
+        )
+    ).all()
+
     month = func.substr(SalesInvoice.sale_date, 1, 7)
     monthly_rows = (
         await db.execute(
@@ -115,6 +139,12 @@ async def summary(
         "payables": ledger.get("payable", (0.0, 0))[0],
         "followups": followups,
         "inventory_items": inventory_items,
+        "stock_value_total": stock_value_total,
+        "top_stock_value": [{"title": r.title, "value": _num(r.stock_value)} for r in stock_rows],
+        "top_avg_price": [
+            {"title": r.title, "avg_price": _num(r.avg_price), "value": _num(r.stock_value)}
+            for r in avg_rows
+        ],
         "monthly_sales": monthly,
         "top_customers": [{"name": r.customer_name, "total": _num(r.total)} for r in top_rows],
         "recent_sales": [

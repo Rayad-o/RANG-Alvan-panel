@@ -40,6 +40,28 @@
                     آپلود اکسل
                 </a>
 
+                <div class="nav-title">خزانه‌داری</div>
+                <a class="nav-link" href="#/banks" data-view="banks">
+                    <svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v9M9.5 10v9M14.5 10v9M19 10v9"/><path d="M3 21h18"/></svg>
+                    بانک‌ها
+                </a>
+                <a class="nav-link" href="#/checks" data-view="checks">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M7 12.5l2.5 2.5L16 9"/></svg>
+                    چک‌ها
+                </a>
+                <a class="nav-link" href="#/receipts" data-view="receipts">
+                    <svg viewBox="0 0 24 24"><path d="M12 3v9"/><path d="M8.5 8.5L12 12l3.5-3.5"/><path d="M4 14v4a1 1 0 001 1h14a1 1 0 001-1v-4"/></svg>
+                    دریافت‌ها
+                </a>
+                <a class="nav-link" href="#/paylog" data-view="paylog">
+                    <svg viewBox="0 0 24 24"><path d="M12 12V3"/><path d="M8.5 6.5L12 3l3.5 3.5"/><path d="M4 14v4a1 1 0 001 1h14a1 1 0 001-1v-4"/></svg>
+                    دفتر پرداخت
+                </a>
+                <a class="nav-link" href="#/ledger" data-view="ledger">
+                    <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+                    دفتر حساب‌ها
+                </a>
+
                 <div class="nav-title">کنترل و ریسک</div>
                 <a class="nav-link" href="#/payments" data-view="payments">
                     <svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
@@ -163,6 +185,20 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- داده‌های «مرور مبلغی انبار محصول»: ارزش موجودی و میانگین قیمت -->
+                    <div class="grid-2">
+                        <div class="panel">
+                            <h2>ارزش موجودی انبار</h2>
+                            <p class="sub" id="stockSub">۱۰ کالای پرارزش بر اساس «مرور مبلغی انبار محصول»</p>
+                            <div class="chart3d" id="chartStock"></div>
+                        </div>
+                        <div class="panel">
+                            <h2>میانگین قیمت (فی بهای موجودی)</h2>
+                            <p class="sub" id="avgSub">بالاترین فی متوسط کالاها به تفکیک</p>
+                            <ul class="rank" id="topAvgPrice"></ul>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- نمای کنترل و ریسک -->
@@ -268,7 +304,7 @@
                 <div class="toolbar"><input class="search" id="inventorySearch" type="search" placeholder="جستجو..."></div>
                 <div class="panel"><div class="table-wrap">
                     <table>
-                        <thead><tr><th>کد کالا</th><th>عنوان</th><th>موجودی</th></tr></thead>
+                        <thead><tr><th>کد کالا</th><th>عنوان</th><th>موجودی</th><th>ارزش موجودی</th><th>فی متوسط (میانگین قیمت)</th></tr></thead>
                         <tbody id="inventoryBody"></tbody>
                     </table>
                 </div></div>
@@ -278,6 +314,98 @@
             <section class="view" id="view-upload">
                 <div class="page-head"><h1>آپلود اکسل</h1><p>فایل را بکشید و رها کنید یا کلیک کنید (xlsx، xls، csv)</p></div>
                 <div class="upload-grid" id="uploadGrid"></div>
+            </section>
+
+            <!-- ===== بانک‌ها ===== -->
+            <section class="view" id="view-banks">
+                <div class="page-head"><h1>بانک‌ها</h1><p>دریافت و پرداخت هر حساب بانکی در دوره (از آپلود «مرور بانک‌ها دریافت و پرداخت»)</p></div>
+                <div class="toolbar"><input class="search" id="banksSearch" type="search" placeholder="جستجو در کد یا نام حساب..."></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>کد</th><th>حساب بانکی</th><th>اول دوره</th><th>دریافت‌ها</th><th>پرداخت‌ها</th><th>مانده</th></tr></thead>
+                        <tbody id="banksBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="banksMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== چک‌ها ===== -->
+            <section class="view" id="view-checks">
+                <div class="page-head"><h1>چک‌ها</h1><p>چک‌های دریافتی و پرداختنی، هر چهار گزارش چک (واگذاری، خرج‌شده، پاس‌شده)</p></div>
+                <div class="toolbar">
+                    <input class="search" id="checksSearch" type="search" placeholder="جستجو در طرف مقابل، شماره چک یا بانک...">
+                    <div class="seg" id="checkDir">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="received">دریافتی</button>
+                        <button data-value="payable">پرداختنی</button>
+                    </div>
+                    <div class="seg" id="checkStatus">
+                        <button class="on" data-value="">همهٔ وضعیت‌ها</button>
+                        <button data-value="pending">در انتظار</button>
+                        <button data-value="deposited">واگذار به بانک</button>
+                        <button data-value="spent">خرج شده</button>
+                        <button data-value="cleared">پاس شده</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>جهت</th><th>طرف مقابل</th><th>مبلغ</th><th>تاریخ سررسید</th><th>شماره</th><th>بانک / حساب</th><th>وضعیت</th></tr></thead>
+                        <tbody id="checksBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="checksMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== دریافت‌ها ===== -->
+            <section class="view" id="view-receipts">
+                <div class="page-head"><h1>دریافت‌ها</h1><p>دریافت‌ها به تفکیک نوع و تاریخ (از آپلود «مرور دریافت بتفکیک نوع و تاریخ»)</p></div>
+                <div class="toolbar">
+                    <input class="search" id="receiptsSearch" type="search" placeholder="جستجو در طرف مقابل یا شرح...">
+                    <div class="seg" id="receiptKind">
+                        <button class="on" data-value="">همه</button>
+                        <button data-value="دریافت از مشتری">دریافت از مشتری</button>
+                        <button data-value="انتقالی">انتقالی</button>
+                        <button data-value="سایر دریافت ها">سایر دریافت‌ها</button>
+                    </div>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>نوع</th><th>طرف مقابل</th><th>شماره</th><th>تاریخ</th><th>مبلغ</th><th>شرح</th></tr></thead>
+                        <tbody id="receiptsBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="receiptsMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== دفتر پرداخت ===== -->
+            <section class="view" id="view-paylog">
+                <div class="page-head"><h1>دفتر پرداخت</h1><p>پرداخت‌ها به تفکیک نوع و روز (از آپلود «گزارش پرداخت ب تفکیک نوع و روز»)</p></div>
+                <div class="toolbar">
+                    <input class="search" id="paylogSearch" type="search" placeholder="جستجو در طرف مقابل یا شرح...">
+                    <select class="select" id="paylogKind">
+                        <option value="">همهٔ انواع</option>
+                        <option value="به تامین کننده">به تأمین‌کننده</option>
+                        <option value="پرداخت به سایر">پرداخت به سایر</option>
+                        <option value="بانک به بانک">بانک به بانک</option>
+                        <option value="به مشتری">به مشتری</option>
+                        <option value="تضمین">تضمین</option>
+                    </select>
+                </div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>نوع پرداخت</th><th>طرف مقابل</th><th>شماره</th><th>تاریخ</th><th>اقلام</th><th>مبلغ</th><th>شرح</th></tr></thead>
+                        <tbody id="paylogBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="paylogMore" hidden>نمایش بیشتر</button></div></div>
+            </section>
+
+            <!-- ===== دفتر حساب‌ها ===== -->
+            <section class="view" id="view-ledger">
+                <div class="page-head"><h1>دفتر حساب‌ها</h1><p>گردش و ماندهٔ سرفصل‌ها (مرور تأمین‌کنندگان و سایر حساب‌های پرداختنی)</p></div>
+                <div class="toolbar"><input class="search" id="ledgerSearch" type="search" placeholder="جستجو در کد یا عنوان سرفصل..."></div>
+                <div class="panel"><div class="table-wrap">
+                    <table>
+                        <thead><tr><th>کد</th><th>عنوان</th><th>گردش بدهکار</th><th>گردش بستانکار</th><th>مانده بدهکار</th><th>مانده بستانکار</th></tr></thead>
+                        <tbody id="ledgerBody"></tbody>
+                    </table>
+                </div><div class="more"><button class="btn ghost" id="ledgerMore" hidden>نمایش بیشتر</button></div></div>
             </section>
 
             <!-- ===== کنترل پرداخت ===== -->

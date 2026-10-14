@@ -19,6 +19,7 @@ from app.models.control import (
     Supplier,
     Task,
 )
+from app.models.treasury import BankAccount, PaymentLog, Receipt, TreasuryCheck
 
 __all__ = [
     "User",
@@ -38,4 +39,8 @@ __all__ = [
     "PurchaseRequest",
     "PurchaseRequestItem",
     "RequestEvent",
+    "BankAccount",
+    "TreasuryCheck",
+    "Receipt",
+    "PaymentLog",
 ]

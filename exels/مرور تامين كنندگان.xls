@@ -1,0 +1,376 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>1890</WindowHeight>
+  <WindowWidth>11850</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Comma">
+   <NumberFormat ss:Format="_ * #,##0.00_-_ ;_ * #,##0.00\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s16">
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="_ * #,##0_-_ ;_ * #,##0\-_ ;_ * &quot;-&quot;??_-_ ;_ @_ "/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="37" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="34.5" ss:AutoFit="0"/>
+   <Column ss:AutoFitWidth="0" ss:Width="230.25" ss:AutoFit="0"/>
+   <Column ss:StyleID="s74" ss:Width="88.5" ss:Span="2" ss:AutoFit="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="4" ss:StyleID="s80"><Data ss:Type="String">مرور تامین کنندگان 1405 شهریور</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كد</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">عنوان</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">گردش بدهكار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">مانده بدهكار</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">مانده بستانكار</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10059</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شركت چسب آذر</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">16610000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">14730000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10218</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">قوطي راهنورد</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">12480000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10220</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">فرآيند پودر الوان</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">36165000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">10633130003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10382</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">خانم ظاهري شركت زرشيمي جديد</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">157980140000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8072720008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10683</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">قنبري حلب آراسكو</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">9000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">7144250003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10212</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">تبريز حلب اسماعيل پور</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">10013500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">3873500677</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10066</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">توليدي صنعتي آوا شيمي-رزين</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">26500000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">3250000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10061</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">توسعه تجارت بيدكوه سازه(نصيري)</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">10500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2293578881</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10361</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">شركت پودر كربنات زاگرس (خانم رضايي)</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">594360001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10381</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">ليبل كريمي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">500000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">521500000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10500</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كربنات خانم محمدي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">300000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">140000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10404</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">سعيد صديقي ليتوگرافي هما</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">800000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">112000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10439</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ويژن پك</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">40000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">49335000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10038</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">اميا پارس</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">5685117500</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">370002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10054</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">هاشمي امير</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">6190000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1253000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10056</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">پرداد پلاست</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1866480000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1866480000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10058</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">كارتن سازي فيضي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">493950000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">493950000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">195000000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">64006389996</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10065</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">آذر شفق تبريز</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">65251201491</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">41862452178</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10067</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">صنايع رنگ اطلس فام سهند</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">105624000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">26710776000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10221</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">غلامي زيره</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2605000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10411</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">حلال حسين زاده كمال</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6360000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1040000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10430</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">تيراژه چاپ تبريز </Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">3163750000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">3163750000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10433</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">سطل فضلي شهرام </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">17036910000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1640404025</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10541</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">سها آنديا سپهر</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">4350000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">4350000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10583</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">كالا كاوان كيميا</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1350000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1350000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10591</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">بهين طيف كيميا پيام قربانپور</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">8000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1450000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10670</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">پيمان پزشكي حلب</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">47443500011</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">8800494942</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10672</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">آويدان شيمي تجارت شريفي</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">81090000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1570299998</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10728</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">آذران تقطير سهند-اسيد چربان شيمي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">93408000000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">46388037996</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10730</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">توليدي امجد پلاستيك</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10752</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">باروق كارتن سازي</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1279804000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">10764</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">رنگ اپوكسي حسام الدين لارني</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">600000000</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">10853</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">گرد آفريد ماندگار جوهر</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">379500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">379500000</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">917085853002</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">207325535135</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">63894744577</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

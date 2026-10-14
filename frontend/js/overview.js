@@ -115,6 +115,31 @@ async function loadBusinessOverview() {
                 <td>${r.remaining_amount > 0 ? fmt(r.remaining_amount) : "—"}</td>
             </tr>`).join("")
         : '<tr><td colspan="4" class="empty">فاکتوری ثبت نشده است</td></tr>';
+
+    // «مرور مبلغی انبار محصول»: ارزش موجودی و میانگین قیمت (فی متوسط) کالاها
+    const stock = s.top_stock_value || [];
+    const shortTitle = t => (String(t || "").length > 14 ? String(t).slice(0, 13) + "…" : t || "—");
+    Scenes.barChart(
+        $("#chartStock"),
+        stock.map(p => ({ label: shortTitle(p.title), tip: `${p.title} — ${fmt(p.value)} ریال`, value: p.value })),
+        fmtShort, fmt,
+        "هنوز فایل «مرور مبلغی انبار محصول» را بارگذاری نکرده‌اید.<br>از بخش «آپلود اکسل» اضافه کنید تا اینجا نمایش داده شود."
+    );
+    $("#stockSub").textContent = stock.length
+        ? `ارزش کل موجودی: ${fmt(s.stock_value_total)} ریال`
+        : "۱۰ کالای پرارزش بر اساس «مرور مبلغی انبار محصول»";
+
+    const avg = s.top_avg_price || [];
+    const avgMax = Math.max(...avg.map(p => Number(p.avg_price)), 1);
+    $("#topAvgPrice").innerHTML = avg.length
+        ? avg.map(p => `
+            <li>
+                <div class="row"><span title="${esc(p.title)}">${esc(p.title)}</span><b>${fmtShort(p.avg_price)}</b></div>
+                <div class="bar"><i style="width:0" data-w="${(Number(p.avg_price) / avgMax) * 100}"></i></div>
+            </li>`).join("")
+        : '<li class="empty">داده‌ای وجود ندارد</li>';
+    requestAnimationFrame(() => requestAnimationFrame(() =>
+        $$("#topAvgPrice i").forEach(i => { i.style.width = i.dataset.w + "%"; })));
 }
 
 // ---------------------------------------------------------------------------

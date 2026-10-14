@@ -24,6 +24,12 @@ COLUMN_MAP = {
     "کد": "code",
     "عنوان": "title",
     "تعداد": "quantity",
+    "موجودی-مقدار": "quantity",
+    # از «مرور مبلغی انبار محصول»
+    "موجودی-مبلغ": "stock_value",
+    "موجودی مبلغ": "stock_value",
+    "موجودی-فی متوسط": "avg_price",
+    "موجودی فی متوسط": "avg_price",
 }
 
 REQUIRED = ["code", "title", "quantity"]
@@ -48,6 +54,7 @@ async def upload_inventory(
     require_columns(df, REQUIRED)
 
     created = 0
+    updated = 0
     skipped = 0
     errors: list[str] = []
 
@@ -59,14 +66,35 @@ async def upload_inventory(
                 skipped += 1
                 continue
 
-            db.add(
-                InventoryItem(
-                    code=code,
-                    title=title,
-                    quantity=clean_amount(row.get("quantity")),
+            quantity = clean_amount(row.get("quantity"))
+            stock_value = clean_amount(row.get("stock_value")) if "stock_value" in df.columns else None
+            avg_price = clean_amount(row.get("avg_price")) if "avg_price" in df.columns else None
+
+            # آپلود مجدد یک کالا باید سطر قبلی را به‌روزرسانی کند، نه ردیف تکراری بسازد
+            # (مثلاً «مرور تعدادی» و «مرور مبلغی انبار» هر دو یک کالا را دارند)
+            existing = (
+                await db.execute(select(InventoryItem).where(InventoryItem.code == code))
+            ).scalar_one_or_none()
+
+            if existing:
+                existing.title = title
+                existing.quantity = quantity
+                if stock_value is not None:
+                    existing.stock_value = stock_value
+                if avg_price is not None:
+                    existing.avg_price = avg_price
+                updated += 1
+            else:
+                db.add(
+                    InventoryItem(
+                        code=code,
+                        title=title,
+                        quantity=quantity,
+                        stock_value=stock_value,
+                        avg_price=avg_price,
+                    )
                 )
-            )
-            created += 1
+                created += 1
         except Exception as exc:  # noqa: BLE001
             errors.append(f"ردیف {idx + 2}: {exc}")
 
@@ -75,6 +103,7 @@ async def upload_inventory(
     return {
         "message": "آپلود موجودی انبار انجام شد",
         "created": created,
+        "updated": updated,
         "skipped": skipped,
         "errors": errors[:30],
     }
@@ -101,6 +130,8 @@ async def list_inventory(
             "title": i.title,
             # Numeric به str تبدیل می‌شود تا سریال‌ساز JSON شناور اعشاری ندهند
             "quantity": None if i.quantity is None else str(i.quantity),
+            "stock_value": None if i.stock_value is None else str(i.stock_value),
+            "avg_price": None if i.avg_price is None else str(i.avg_price),
         }
         for i in items
     ]

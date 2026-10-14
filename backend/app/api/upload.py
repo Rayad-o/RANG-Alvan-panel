@@ -10,6 +10,7 @@ from app.core.excel import (
     clean_amount,
     clean_jalali_date,
     map_columns,
+    normalize_persian,
     read_tabular_file,
     require_columns,
 )
@@ -85,7 +86,8 @@ async def upload_sales_excel(
             db.add(
                 SalesInvoice(
                     invoice_number=invoice_number,
-                    customer_name=str(customer).strip(),
+                    # حروف عربی (ي/ك) → فارسی تا جستجوی فارسی در فروش جواب بدهد
+                    customer_name=normalize_persian(str(customer)).strip(),
                     amount=amount,
                     remaining_amount=remaining,
                     sale_date=sale_date,

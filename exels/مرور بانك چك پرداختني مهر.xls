@@ -1,0 +1,409 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10665</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="178" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#EAEBED" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#EAEBED" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#F5F5F6" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="8.25" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s95">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet" ss:RightToLeft="1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="42" ss:AutoFit="0"/>
+   <Column ss:Width="243" ss:AutoFit="0"/>
+   <Column ss:Width="93.75" ss:AutoFit="0"/>
+   <Column ss:Width="65.25" ss:AutoFit="0"/>
+   <Column ss:Width="57.75" ss:AutoFit="0"/>
+   <Column ss:Width="54" ss:AutoFit="0"/>
+   <Column ss:Width="225.75" ss:AutoFit="0"/>
+   <Column ss:Width="59.25" ss:AutoFit="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:MergeAcross="7" ss:StyleID="s86"><Data ss:Type="String">مرور بانک چک های پرداختنی به سررسید شهریور 1405</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">تفصيلي</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">طرف مقابل</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">تاريخ سررسيد</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">شماره اعلاميه</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">تاريخ اعلاميه</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">تاريخ وصول</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">حساب بانكي</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">نوع</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="1" ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/31</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1719</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/04/21</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/07/05</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">سينا جاري سحرشيمي شعبه مياندوآب 16800414000196001</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10382</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">خانم ظاهري شركت زرشيمي جديد</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/28</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1238</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/03/25</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/28</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-1-7804952-1جاري علي شريفي‬</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10065</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">آذر شفق تبريز</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/26</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1472</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/04/07</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/26</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/25</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1171</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/03/20</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/25</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10065</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">آذر شفق تبريز</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/18</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1472</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/04/07</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/18</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10220</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">فرآيند پودر الوان</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">791</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/02/30</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-1-7804952-1جاري علي شريفي‬</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1171</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/03/20</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/17</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10382</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">خانم ظاهري شركت زرشيمي جديد</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/16</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">507</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/02/15</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/16</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ملت كارخانه قند 4547684111</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10689</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">شركت گرما گستران مهران قاسمي</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/15</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">869</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/03/03</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">رفاه كارگران مياندوآب 397197378</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">پرداخت به ساير</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10065</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">آذر شفق تبريز</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/10</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1472</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/04/07</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/10</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ملت كارخانه قند 9545325920</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/10</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1871</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/10</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">سينا جاري سحرشيمي شعبه مياندوآب 16800414000196001</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10063</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">توانگران سپهر فردا جم</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/09</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">2130</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/04/28</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/09</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ملت كارخانه قند پايتخت ايرانيان 9943242284</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">10731</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">اصغرزاده پرچم جواد</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/07</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1316</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/03/30</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/07</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ملت كارخانه قند 4547684111</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">10382</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">خانم ظاهري شركت زرشيمي جديد</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/05</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">507</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/02/15</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ملت كارخانه قند 4547684111</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">به تامين كننده</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">80194</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">وام مرابحه اقتصاد نوين جاري</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/06/11</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1601</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">1405/04/14</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-2-7804960-1جاري سحرشيمي‬</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">تضمين</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">80194</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">وام مرابحه اقتصاد نوين جاري</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/06/11</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">1601</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">1405/04/14</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">اقتصاد نوين مياندوآب ‎⁮1141-1-7804952-1جاري علي شريفي‬</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">تضمين</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <DisplayRightToLeft/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R24C8</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
